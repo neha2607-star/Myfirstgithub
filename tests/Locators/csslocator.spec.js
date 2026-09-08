@@ -18,7 +18,7 @@ test('css locators', async ({ page }) => {
 
 })
 
-test.only('css', async ({ page }) => {
+test('css', async ({ page }) => {
 
     await page.goto('https://demoapps.qspiders.com/ui?scenario=1')
 

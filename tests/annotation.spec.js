@@ -11,10 +11,10 @@ import {test} from '@playwright/test';
 
 // 2. test.only() : it will execute only this test
 
-test.only('annotation2',async () => {
-    console.log(' annotation 2');
+// test.only('annotation2',async () => {
+//     console.log(' annotation 2');
     
-})
+// })
 
 // 3. test.fail()  : it will intentionally fail the test even if it passed [but in execution because expetation is faile it will come as passed
 //when we feel , ther will be some error in locator, we can mark it as FAIL 

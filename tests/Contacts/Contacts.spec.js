@@ -40,7 +40,7 @@ test('Contacttest',async({page}) => {
 
 })
 
-test.only('contactPOM',async ({page}) => {
+test('contactPOM',async ({page}) => {
 
       let sign = new loginclass(page);
       await sign.launchurl(login.url);

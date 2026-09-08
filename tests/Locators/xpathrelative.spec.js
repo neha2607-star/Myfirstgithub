@@ -1,6 +1,6 @@
 import {test} from '@playwright/test'
 
-test('relativexpath',async (page) => {
+test('relativexpath',async ({page}) => {
 
 
 

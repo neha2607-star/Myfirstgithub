@@ -71,7 +71,7 @@ await popupnewQ.locator('//a[@id="popup_product_17"]').first().click()
 })
 
 
-test.only('invoicePOM',async ({page}) => {
+test('invoicePOM',async ({page}) => {
 
    let sign = new loginclass(page);
       await sign.launchurl(login.url);

@@ -72,7 +72,7 @@ await popupnewQ.locator('//a[@id="popup_product_17"]').first().click()
 })
 
 
-test.only('salesorderPOM',async ({page}) => {
+test('salesorderPOM',async ({page}) => {
 
     let sign = new loginclass(page);
     await sign.launchurl(login.url);

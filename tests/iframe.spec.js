@@ -18,7 +18,7 @@ test('iframe', async ({ page }) => {
 
 //nested iframe 
 
-test.only('nested iframe', async ({ page }) => {
+test('nested iframe', async ({ page }) => {
 
     await page.goto('https://demoapps.qspiders.com/ui/frames/nested?sublist=1')
 

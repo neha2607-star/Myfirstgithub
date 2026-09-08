@@ -41,7 +41,7 @@ await page.goto('http://localhost:8888/');
 })
 
 
-test.only('ProductPOM',async ({page}) => {
+test('ProductPOM',async ({page}) => {
 
   let sign = new loginclass(page);
     await sign.launchurl(login.url);

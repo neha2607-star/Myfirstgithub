@@ -81,7 +81,7 @@ await expect(leadn.asssert).toContainText(lastname);
 
 // Another method login
 
-test.only('pom2', async ({ page }) => {
+test('pom2', async ({ page }) => {
 
     let sign = new loginclass(page);
     await sign.launchurl(login.url);

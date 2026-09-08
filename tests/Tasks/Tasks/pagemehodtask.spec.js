@@ -47,7 +47,7 @@ And launch the applications in 2 tabs Jun 19, 7:48 AM
 Print the title of the applications Jun 19, 7:48 AM
 This task has to be in one test block Jun 19, 7:49 AM*/
 
-test.only('task3',async (context) => {
+test('task3',async (context) => {
 
     let pageA = await context.newPage();
     await pageA.goto('https://www.blinkit.com');

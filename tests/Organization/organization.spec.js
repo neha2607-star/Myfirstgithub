@@ -43,7 +43,7 @@ test('organizationtest',async({page}) => {
 })
 
 
-test.only('OrganizationPOM',async ({page}) => {
+test('OrganizationPOM',async ({page}) => {
 
   let sign = new loginclass(page);
       await sign.launchurl(login.url);

@@ -1,6 +1,6 @@
 import { test } from '@playwright/test'
 
-test.only('notifications', async ({ browser }) => {
+test('notifications', async ({ browser }) => {
 
     // Notification permission is given at browser level
     let context = await browser.newContext({

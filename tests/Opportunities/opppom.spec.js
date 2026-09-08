@@ -52,7 +52,7 @@ await popupnew.getByRole('link',{name:'TATA'}).first().click()
 })
 
 
-test.only('OpportunityPom',async ({page}) => {
+test('OpportunityPom',async ({page}) => {
 
   let sign = new loginclass(page);
     await sign.launchurl(login.url);

@@ -28,7 +28,7 @@ test('amazon', async ({ page }) => {
 //task 
 
 
-test.only('task',async ({page}) => {
+test('task',async ({page}) => {
     
     await page.goto('https://demoapps.qspiders.com/ui/browser?sublist=0')
     let [popupnew] = await Promise.all([
